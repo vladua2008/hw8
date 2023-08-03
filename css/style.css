@@ -1,0 +1,30 @@
+.text-box > h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.text-box > div > p {
+    color: red;
+}
+div + h3 + p {
+    color: green;
+}
+p:last-child{
+    color: yellow;
+}
+#monday li:last-child a:visited{
+    color: orange;
+}
+#tuesday li:first-child a:focus{
+    color: red;
+}
+#wednesday button:disabled{
+    background-color: blue;
+}
+#thursday button:hover{
+    background-color: aquamarine;
+}
+#friday input:checked{
+    outline: 3px solid gold;
+}
